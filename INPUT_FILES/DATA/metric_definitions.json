@@ -1,0 +1,13 @@
+{
+  "definitions": {
+    "totalSales": "Sum of amount for Completed transactions only",
+    "activeOrders": "Count of Pending and Processing transactions",
+    "transactionCount": "Total distinct transaction IDs"
+  },
+  "exampleCalculatedFromFixtures": {
+    "totalSales": 21900,
+    "activeOrders": 30,
+    "transactionCount": 60,
+    "currency": "INR"
+  }
+}

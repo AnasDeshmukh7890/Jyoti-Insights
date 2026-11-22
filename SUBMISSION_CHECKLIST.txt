@@ -1,0 +1,7 @@
+Submit in ONE Google Drive folder with authorized reviewer Viewer access:
+[ ] README.md with installation, API configuration, build, and run instructions
+[ ] GitHub URL to completed React source
+[ ] Working HTTPS deployment URL for visual/functional checks
+[ ] QA_CASES.csv with actual outcomes, environments, and screenshot evidence
+[ ] COMPLETION_NOTE.txt listing links, checks, remaining limitations
+Retain component modules and CSS Modules; do not represent untested browser environments as passed.

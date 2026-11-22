@@ -1,0 +1,26 @@
+JYOTI INSIGHTS | React Dashboard UI Build
+Job ID: HijtkE4yeRrEHZ98FoLn
+Budget: INR 851 | Deadline: 22 November 2026 | Duration: 1 business day
+
+OBJECTIVE
+Build a responsive React sales dashboard for Jyoti Pandey using the supplied local API, 60 transaction records, design references and starter project.
+
+INPUTS
+INPUT_FILES/DESIGN_REFERENCES/dashboard_desktop_1440.png
+INPUT_FILES/DESIGN_REFERENCES/dashboard_mobile_390.png
+INPUT_FILES/BRAND_AND_TECHNICAL_SPEC.txt
+INPUT_FILES/DATA/transactions.json and metric_definitions.json
+INPUT_FILES/MOCK_API/ (runnable API with tests)
+INPUT_FILES/REACT_STARTER/ (unfinished frontend starter)
+INPUT_FILES/TEST_CASES/QA_CASES.csv
+
+WORK
+1. Review designs, field definitions and API specification.
+2. Launch the API and frontend; verify the API endpoints.
+3. Implement responsive Sidebar/Header/Content, reusable metric cards and TransactionTable.
+4. Fetch GET /api/stats and GET /api/transactions, implement search/status filters, loading, error and empty states.
+5. Test mobile/tablet/desktop and Chrome/Firefox. Record actual results and screenshots.
+6. Publish the completed source to GitHub and deploy a working frontend with an accessible data endpoint. Submit links and README via one Google Drive folder shared Viewer-only with the authorized reviewer.
+
+ACCEPTANCE
+Functional React hooks/components; modular CSS; semantic HTML; resilient API failure handling; responsive 390px, 768px, 1440px; npm build succeeds; no hardcoded secrets; actual GitHub and live deployment links.

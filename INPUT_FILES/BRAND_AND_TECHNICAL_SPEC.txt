@@ -1,0 +1,13 @@
+JYOTI INSIGHTS | Sales Administration Interface
+Project: React responsive sales dashboard
+Audience: internal sales operations personnel
+Color palette: Navy #142538; teal #147D82; canvas #F3F6F7; muted text #617281; light accent #D8F0EA.
+Typography: system-ui / Arial / sans-serif. Use 14px minimum content text on desktop; retain readability on narrow screens.
+Design references: DESIGN_REFERENCES/dashboard_desktop_1440.png and dashboard_mobile_390.png. They are illustrative targets; implement responsive behavior rather than fixed-size screenshots.
+Required component tree: App -> DashboardLayout (Sidebar + Header + main) -> SalesStatCard x3 + TransactionTable.
+Metric source: GET /api/stats; transactions: GET /api/transactions?status=...&q=... .
+Stats: Total Sales (completed order amount), Active Orders (Pending + Processing), Transaction Count.
+Error states: loading, failed API, retry. Empty states: no matching transactions.
+Responsive: 1200px full desktop; 768px tablet; 390px narrow mobile. At widths below 768px sidebar becomes collapsed / stacked navigation and transaction table supports horizontal scroll.
+Use React functional components/hooks, semantic header/nav/main/section/table/footer, CSS Modules; do not add inline styles or unnecessary dependencies.
+No production API account required. The included local API represents the provided backend endpoints and must be integrated by the freelancer.
